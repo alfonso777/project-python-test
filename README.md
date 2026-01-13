@@ -6,8 +6,8 @@ Our first Python project
 ### Subtitulo 1
 - Item a
 - Item b
+- Item c
 
 ### Subtitulo 2
 - item 1
-- item 2
 
