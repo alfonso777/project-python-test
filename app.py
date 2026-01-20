@@ -6,9 +6,10 @@ def hello_world():
     print("Hello")
     return render_template("index.html")
 
-#@app.route("/customers")
-#def hello_world():
-#    return "Victoriano"
+@app.route("/customers")
+def customers():
+    fruits = ['Orange', 'Lemon', "Apple", "Blueberry", "Kiwi", "Lúcuma"]
+    return render_template("fruits.html", fruits = fruits)
 
 
 if __name__ == "__main__":
