@@ -6,7 +6,7 @@ def hello_world():
     print("Hello")
     return render_template("index.html")
 
-@app.route("/customers")
+@app.route("/fruits")
 def customers():
     fruits = ['Orange', 'Lemon', "Apple", "Blueberry", "Kiwi", "Lúcuma"]
     return render_template("fruits.html", fruits = fruits)
