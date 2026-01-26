@@ -1,5 +1,5 @@
 
-from model import double
+from dummy import double
 
 def test_double_integer3():
     result = double(13)
