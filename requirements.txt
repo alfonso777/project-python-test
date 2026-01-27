@@ -1,1 +1,5 @@
 Flask
+mlflow
+scikit-learn
+pandas
+#numpy
